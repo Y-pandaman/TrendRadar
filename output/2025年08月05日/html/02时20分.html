@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 285</p><p>生成时间: 2025-08-05 02:20:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">汽车 自动驾驶 辅助驾驶</td>
+                <td class="count">5</td>
+                <td class="percentage">1.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1934733098534282011" target="_blank" class="news-link">理想汽车 7 月交付量同比下降近 40%，这背后原因有哪些？</a> [7] <font color='grey'>- 02时20分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344007&amp;amp;topic_name=%E6%B1%BD%E8%BD%A6%E6%88%90%E4%BA%86%E5%BF%AB%E9%94%80%E5%93%81%E5%A5%BD%E4%BA%8B%E8%BF%98%E6%98%AF%E5%9D%8F%E4%BA%8B%EF%BC%9F" target="_blank" class="news-link">汽车成了快销品好事还是坏事？</a> [9] <font color='grey'>- 02时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7533938890630234148/" target="_blank" class="news-link">俄罗斯又给中国汽车摆了好几道</a> [11] <font color='grey'>- 02时20分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31293996" target="_blank" class="news-link">马上评︱用户关心的安全话题真是“汽车撞卡车”吗</a> [11] <font color='grey'>- 02时20分</font><br>[靠谱新闻] <a href="https://china.kyodonews.net/news/2025/06/c0ff250932a7-7-.html" target="_blank" class="news-link">丰田7月起在美上调汽车售价 否定受关税直接影响</a> [28] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1928825419353813662" target="_blank" class="news-link">为什么华为昇腾 910B 算力比英伟达 H20 高，市场上却没有什么需求？</a> [12] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1935280717648080919" target="_blank" class="news-link">网传法拉利副主席驾驶小米 SU7 Ultra 直呼像 F1 赛车，这是真的吗？</a> [16] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉 SpaceX 星链 FSD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20250621-%E7%89%B9%E6%96%AF%E6%8B%89%E5%9C%A8%E4%B8%AD%E5%9B%BD%E6%89%93%E9%80%A0%E9%A6%96%E5%BA%A7%E7%94%B5%E7%BD%91%E4%BE%A7%E5%82%A8%E8%83%BD%E7%94%B5%E7%AB%99" target="_blank" class="news-link">特斯拉在中国打造首座电网侧储能电站</a> [17] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1935632839791043078" target="_blank" class="news-link">库克超越乔布斯成苹果史上任期最长 CEO，库克在商业上做对了什么，让他达此成就？</a> [11] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2105346" target="_blank" class="news-link">【每日收评】三大指数低开高走全线收红，军工股全线爆发，机器人概念卷土重来</a> [8] <font color='grey'>- 02时20分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1934733098534282011" target="_blank" class="news-link">理想汽车 7 月交付量同比下降近 40%，这背后原因有哪些？</a> [7]</li></ul></div>
+    </body>
+    </html>
+    
